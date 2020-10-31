@@ -18,8 +18,8 @@ public class Mover_Player2 : MonoBehaviour
         MovePlayer();
     }
 
-    //Movement function using the arrow keys
-    private void MovePlayer()
+    //Movement function using W,S,D,A
+    void MovePlayer()
     {
         Vector3 move = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.W))

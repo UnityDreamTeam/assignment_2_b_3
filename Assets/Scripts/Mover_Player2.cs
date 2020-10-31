@@ -28,7 +28,6 @@ public class Mover_Player2 : MonoBehaviour
         }
         else if ((Input.GetKey(KeyCode.S)))
         {
-            transform.position -= new Vector3(0, step, 0);
             move.y = -step;
         }
         else if ((Input.GetKey(KeyCode.D)))
